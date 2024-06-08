@@ -1,0 +1,3 @@
+FROM rabbitmq:management
+# 启用记录插件
+RUN rabbitmq-plugins enable rabbitmq_tracing
